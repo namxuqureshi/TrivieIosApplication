@@ -1,15 +1,15 @@
 # TrivieIosApplication
 
 ## Things Done
-  APi Implementaton for Questions and Categories
-  Splash, Logo, Loader and get Question by asking user options
-  Local Storage structe is implemented
-  Code Structe implemented
+  1. API Implementaton for Questions and Categories
+  2. Splash, Logo, Loader and get Question by asking user options
+  3. Local Storage structe is implemented
+  4. Code Structe implemented
   
 ## Things Not Done
-  Play trivia
-  Calculate score
-  Bonus Fast Round
+  1. Play trivia
+  2. Calculate score
+  3. Bonus Fast Round
   
 ## External pods used
   1. 'Alamofire':  For Netowrk Purpose 
