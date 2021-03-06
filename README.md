@@ -1,6 +1,6 @@
 # TrivieIosApplication
 # External pods used
-  'Alamofire':  For Netowrk Purpose 
+  ##'Alamofire':  For Netowrk Purpose 
   'SwiftyJSON':  For JSON parsing
   'Toast-Swift':  For Toast Show Success/Error
   'SkeletonView':  For Cell Skeleton Animation
