@@ -12,10 +12,10 @@
   Bonus Fast Round
   
 ## External pods used
-  'Alamofire':  For Netowrk Purpose 
-  'SwiftyJSON':  For JSON parsing
-  'Toast-Swift':  For Toast Show Success/Error
-  'SkeletonView':  For Cell Skeleton Animation
-  'ActiveLabel':  For Label multi color attributed with click on specifc type
-  'RSLoadingView':  For Loader Display
-  'DropDown':  For Display list of selection
+  1. 'Alamofire':  For Netowrk Purpose 
+  2. 'SwiftyJSON':  For JSON parsing
+  3. 'Toast-Swift':  For Toast Show Success/Error
+  4. 'SkeletonView':  For Cell Skeleton Animation
+  5. 'ActiveLabel':  For Label multi color attributed with click on specifc type
+  6. 'RSLoadingView':  For Loader Display
+  7. 'DropDown':  For Display list of selection
