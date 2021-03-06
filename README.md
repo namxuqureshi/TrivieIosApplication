@@ -19,3 +19,12 @@
   5. 'ActiveLabel':  For Label multi color attributed with click on specifc type
   6. 'RSLoadingView':  For Loader Display
   7. 'DropDown':  For Display list of selection
+
+## Knonw Bug/Issue  
+N/A
+
+## Room For Improvement
+  1. UI need more enhacement
+  2. Trivia logic need more enhacement for entertain user
+  3. Animation for success and failure
+
