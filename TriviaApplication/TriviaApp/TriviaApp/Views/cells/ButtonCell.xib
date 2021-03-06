@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ButtonCell" rowHeight="119" id="KGk-i7-Jjw" customClass="ButtonCell" customModule="TriviaApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="422" height="119"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="422" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dX2-1Y-9Ck">
+                        <rect key="frame" x="20" y="10" width="382" height="55"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GRO-Pj-uaL">
+                                <rect key="frame" x="67" y="5" width="248" height="45"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="SiC-Bp-rJN"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClickButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="lda-gf-G0o"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="GRO-Pj-uaL" secondAttribute="bottom" constant="5" id="0bj-Ad-Cgw"/>
+                            <constraint firstItem="GRO-Pj-uaL" firstAttribute="width" secondItem="dX2-1Y-9Ck" secondAttribute="width" multiplier="0.65" id="CKu-q7-gcD"/>
+                            <constraint firstItem="GRO-Pj-uaL" firstAttribute="centerX" secondItem="dX2-1Y-9Ck" secondAttribute="centerX" id="bjh-TP-sRW"/>
+                            <constraint firstItem="GRO-Pj-uaL" firstAttribute="top" secondItem="dX2-1Y-9Ck" secondAttribute="top" constant="5" id="c3u-Ro-VLt"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="dX2-1Y-9Ck" secondAttribute="bottom" constant="10" id="1f5-2P-WMW"/>
+                    <constraint firstItem="dX2-1Y-9Ck" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="WdK-Yk-TJG"/>
+                    <constraint firstAttribute="trailing" secondItem="dX2-1Y-9Ck" secondAttribute="trailing" constant="20" id="o2I-Ug-Uuw"/>
+                    <constraint firstItem="dX2-1Y-9Ck" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="wWi-8y-4p1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnCell" destination="GRO-Pj-uaL" id="aac-Mi-yKM"/>
+            </connections>
+            <point key="canvasLocation" x="108.69565217391305" y="113.50446428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

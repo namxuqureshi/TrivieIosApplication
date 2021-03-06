@@ -1,0 +1,76 @@
+PODS:
+  - ActiveLabel (1.1.0)
+  - Alamofire (5.4.1)
+  - DropDown (2.3.13)
+  - IQKeyboardManager (6.5.6)
+  - Kingfisher (6.1.1)
+  - KingfisherWebP (1.2.0):
+    - Kingfisher (~> 6.1)
+    - libwebp (>= 1.1.0)
+  - libwebp (1.2.0):
+    - libwebp/demux (= 1.2.0)
+    - libwebp/mux (= 1.2.0)
+    - libwebp/webp (= 1.2.0)
+  - libwebp/demux (1.2.0):
+    - libwebp/webp
+  - libwebp/mux (1.2.0):
+    - libwebp/demux
+  - libwebp/webp (1.2.0)
+  - PasswordTextField (1.2.0)
+  - PocketSVG (2.7.0)
+  - RSLoadingView (1.1.3)
+  - SkeletonView (1.13.0)
+  - SwiftyGif (5.4.0)
+  - SwiftyJSON (5.0.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - Alamofire
+  - DropDown
+  - IQKeyboardManager
+  - KingfisherWebP
+  - PasswordTextField
+  - PocketSVG
+  - RSLoadingView
+  - SkeletonView
+  - SwiftyGif
+  - SwiftyJSON
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - ActiveLabel
+    - Alamofire
+    - DropDown
+    - IQKeyboardManager
+    - Kingfisher
+    - KingfisherWebP
+    - libwebp
+    - PasswordTextField
+    - PocketSVG
+    - RSLoadingView
+    - SkeletonView
+    - SwiftyGif
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  Kingfisher: 676d63307fbef6ed5d5ed400bff36983480d7500
+  KingfisherWebP: f3f431a98aa3938249aefeaf1ad4d98d0a1c88da
+  libwebp: e90b9c01d99205d03b6bb8f2c8c415e5a4ef66f0
+  PasswordTextField: 2548de43f150fc90a014da47b0d97e31aada4b94
+  PocketSVG: 5e0ff20c8a661586b2f2c295cd18b3e8f06de552
+  RSLoadingView: c7749afdd455229643e8f34277d0695973a15b1a
+  SkeletonView: 2b14cb767a7da384d17d5d7e1db0d55a6cf9566a
+  SwiftyGif: 5d4af95df24caf1c570dbbcb32a3b8a0763bc6d7
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: ef20e90885123911b271848f24eeb341b2aba7d8
+
+COCOAPODS: 1.10.1
