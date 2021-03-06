@@ -178,33 +178,19 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/KingfisherWebP/KingfisherWebP.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/PasswordTextField/PasswordTextField.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/PocketSVG/PocketSVG.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RSLoadingView/RSLoadingView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/KingfisherWebP/KingfisherWebP.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/PasswordTextField/PasswordTextField.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/PocketSVG/PocketSVG.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RSLoadingView/RSLoadingView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

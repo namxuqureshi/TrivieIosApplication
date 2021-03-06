@@ -6,11 +6,11 @@ target 'TriviaApp' do
   use_frameworks!
   inhibit_all_warnings!
   # Pods for TriviaApp
-  pod 'IQKeyboardManager'
-  pod 'KingfisherWebP'
-  pod 'PocketSVG'
-  pod 'SwiftyGif'
-  pod 'PasswordTextField'
+#  pod 'IQKeyboardManager'
+#  pod 'KingfisherWebP'
+#  pod 'PocketSVG'
+#  pod 'SwiftyGif'
+#  pod 'PasswordTextField'
   pod 'Alamofire'
   pod 'SwiftyJSON'
   pod 'Toast-Swift'
